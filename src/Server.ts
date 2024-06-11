@@ -1,4 +1,4 @@
-import { type MessageEventData, PRESET_EVENT_NAMES, type ServerMethod } from '@/asyncPostmessage/types'
+import { type MessageEventData, PRESET_EVENT_NAMES, type ServerMethod } from './types'
 
 export class Server<M extends ServerMethod> {
   methods: M
